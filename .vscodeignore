@@ -1,0 +1,18 @@
+# 忽略 node_modules 中的所有内容
+node_modules/
+
+# 忽略 TypeScript 源码文件（我们只需要打包后的 JavaScript 文件）
+src/**/*.ts
+
+# 忽略 webpack 和 TypeScript 生成的配置和缓存文件
+webpack.config.js
+tsconfig.json
+package-lock.json
+
+# 忽略其他不必要的文件
+.vscode/
+.vscode-test/
+tests/
+.git/
+README.md
+CHANGELOG.md
